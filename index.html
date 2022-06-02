@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <a href="blog.html">Go to blog</a>
     <!--Headings-->
     <h1>My name is Robert!</h1>
     <h2>I like programming</h2>
@@ -19,11 +20,131 @@
     <h6>Can you see me?</h6>
 
     <!--Paragraph-->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.E
-        xpedita quasi tempore corporis tenetur laboriosam 
+    <p>Lorem ipsum dolor sit amet <a href="http://google.com" target="_blank">consecterur</a> adipisicing elit.E
+        xpedita quasi <strong>tempore</strong>corporis tenetur laboriosam 
         perspiciatis mollitia, fugiat laudantium quis 
-        beatae iusto deleniti incidunt autem, aliquid 
-        consequuntur ab dolorem excepturi impedit!</p>
+        beatae iusto <em>deleniti</em> incidunt autem, aliquid 
+        consequuntur ab dolorem excepturi impedit!
+    </p>
+
+    <!--Lists-->
+
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+
+    <!--Table-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Robertas</td>
+                <td>Robertas@gmail.com</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Matas</td>
+                <td>Matas@gmail.com</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!--Forms-->
+    <form action="process.php" method="POST">
+        <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="First Name">
+        </div>
+
+        <br>
+
+        <div>
+        <label>Last Name</label>
+        <input type="text" name="lastName">
+        </div>
+        
+        <br>
+        
+        <div>
+        <label>Email</label>
+        <input type="email" name="email">
+        </div>
+
+        <br>
+        
+        <div>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        </div>
+
+        <br>
+        
+        <div>
+        <label>Gender</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="male">Female</option>
+            <option value="male">Other</option>
+        </select>
+        </div>
+
+        <br>
+        
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+
+        <br>
+        
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <!--Button-->
+    <button>Click Me</button>
+
+    <br>
+
+    <!--Images-->
+    <a href="images/download.jpg">
+    <img src="images/download.jpg" alt="Puppy" width="200">
+    </a>
+
+    <!--Quotations-->
+    <blockquote cite="http://traversymedia.com">Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Eos, tempora!</blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+        <p><cite>HTML</cite> learning</p>
 </body>
 
 </html>
