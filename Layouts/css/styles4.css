@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    padding: 80px 24px 56px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxLong{
+  height: 50px;
+  margin-bottom: 24px;
+}
+.box{
+    border: 2px solid black;
+    
+}
+.boxBig{
+    border: 2px solid black;
+    width: 45%;
+    margin-bottom: 24px;
+}
+.boxHolder{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.boxSmall{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 24px;
+}
+.smallBoxHolder{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto -24px auto;
+    display: flex;
+    justify-content: space-around;
+}
+

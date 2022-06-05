@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxLong{
+  height: 50px;
+  margin-bottom: 24px;
+}
+.box{
+    border: 2px solid black;
+    
+}
+.boxBig{
+    border: 2px solid black;
+    width: 45%;
+    margin-bottom: 24px;
+}
+.boxHolder{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
