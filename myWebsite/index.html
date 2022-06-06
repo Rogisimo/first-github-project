@@ -4,57 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-    <header id="mainHeader">
-        <div class="container">
-            <h1>My Website</h1>
-        </div>
-    </header>
-
-    <nav id="navBar">
-        <div class="container">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </div>
-    </nav>
-
-
-    <!--IDS used for unique content-->
-    <section id="showcase">
-        <div class="container">
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
-        </div>
+    <section>
+        <nav>
+            <img src="images/controller.png" alt="" style="width: 80px;">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                <div>
+                    <h1>Game Development is Fun</h1>
+                    <p class="subheader">Learn game development to start recreating your ideas</p>
+                    <button>Start Now</button>
+                </div>
+                <figure>
+                    <img src="images/character.png" alt="Home page image">
+                </figure>
+            </div>
+        </header>
     </section>
 
-
-    <div class="container">
-    <section id="main">
-        <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Labore assumenda eveniet doloribus dolorum perferendis
-             corrupti aliquid! A explicabo labore veniam dolor, 
-             excepturi et blanditiis accusamus facilis illo 
-             pariatur, eligendi nisi.
-        </p>
-    </section>
-
-    <aside id="sideBar">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Labore assumenda eveniet doloribus dolorum perferendis
-             corrupti aliquid! A explicabo labore veniam dolor.
-        </p>
-    </aside>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div class="row">
+            <div class="section_description">
+                <div class="section_description-wrapper">
+                    <p class="section_description-para">Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Ullam, corporis odio incidunt labore at 
+                        voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Ullam, corporis odio incidunt labore at 
+                        voluptatum?
+                    </p>
+                    <p class="section_description-para">Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Ullam, corporis odio incidunt labore at 
+                        voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Ullam, corporis odio incidunt labore at 
+                        voluptatum?
+                    </p>
+                </div>
+                <figure class="about_img-wrapper">
+                    <img src="images/Gorilla.png" alt="Home page image">
+                </figure>
+            </div>
+        </div>
+        </section>
+        <section id="discord">
+            <h2>Discord</h2>
+            <div class="row">
+            <div class="section_description">
+            <figure class="about_img-wrapper">
+                <img src="images/discord.png" alt="Home page image">
+            </figure>
+            <div class="section_description-wrapper">
+            <p class="section_description-para">Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Ullam, corporis odio incidunt labore at 
+                voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Ullam, corporis odio incidunt labore at 
+                voluptatum?
+            </p>
+            <p class="section_description-para">Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Ullam, corporis odio incidunt labore at 
+                voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Ullam, corporis odio incidunt labore at 
+                voluptatum?
+            </p>
+        </div>
     </div>
+</div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <label>Email</label>
+                <input type="email" placeholder="jane@example.com">
+                <label>Message</label>
+                <textarea placeholder="Nice website! Lets connect!"></textarea>
+                <button type="submit">Contact Us</button>
 
-    <footer id="mainFooter">
-        <p>Copyright &copy; 2017 My Website</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/controller.png" alt="" style="width:80px; margin-bottom: 12px;">
+        <div class="footer_links">
+            <ul>
+                <a class="footer_link" href="#about">About</a></li>
+                <a class="footer_link" href="#discord">Discord</a></li>
+                <a class="footer_link" href="#contact">Contact</a></li>
+                <a class="footer_link" href="#">Courses</a></li>
+            </ul>
+        </div>
+        <p>Copyright My Website &copy; 2022</p>
     </footer>
-    
 </body>
 </html>
